@@ -4,19 +4,6 @@ html, body{
   height:100%;
   width: 100%;
   font-family: 'poppins', 'sans-serif';
-  background-image: url("img/background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-#fixed {
-    height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 #NewC{
   height: 60%;
