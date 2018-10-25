@@ -4,7 +4,7 @@ html, body{
   height:100%;
   width: 100%;
   font-family: 'poppins', 'sans-serif';
-  background-image: url("img_tree.gif");
+  background-image: url("img/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
