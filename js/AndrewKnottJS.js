@@ -1,5 +1,5 @@
 function myFunction(){
 
-	document.getElementById("homeButton").innerHTML = "Omegalul";
+	document.getElementById("homeButton").innerHTML = "Pepe Hands";
 
 }
