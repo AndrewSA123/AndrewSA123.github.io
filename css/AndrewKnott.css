@@ -90,10 +90,13 @@ html, body{
 .fa-android{
   color:#A4C639;
 }
+.fa-github{
+  color:#333;
+}
 .fa-at{
   color:#A4C639;
 }
-.fa-code, .fa-bold, .fa-css3, .fa-js, .fa-cuttlefish, .fa-php, .fa-windows, .fa-android, .fa-university, .fa-school, .fa-at{
+.fa-github, .fa-code, .fa-bold, .fa-css3, .fa-js, .fa-cuttlefish, .fa-php, .fa-windows, .fa-android, .fa-university, .fa-school, .fa-at{
   font-size: 4em;
   margin:1rem;
 }
