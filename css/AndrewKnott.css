@@ -1,217 +1,230 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
 
-html, body{
-  height:100%;
+html,
+body {
+  height: 100%;
   width: 100%;
-  font-family: 'poppins', 'sans-serif';
+  font-family: "poppins", "sans-serif";
 }
-#NewC{
+#NewC {
   height: 60%;
-  -webkit-height:45%;
+  -webkit-height: 45%;
 }
-#PastProjectIMG{
+#PastProjectIMG {
   height: 60%;
   width: 60%;
 }
-.navbar{
-  padding: .8rem;
+.navbar {
+  padding: 0.8rem;
 }
-.navbar-nav li{
+.navbar-nav li {
   padding-right: 20px;
 }
 .nav-link {
   font-size: 1.1em !important;
 }
-.carousel-inner img{
-  width:100%;
-  height:100%;
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
 }
-.carousel-caption{
+.carousel-caption {
   position: absolute;
   top: 60%;
   transform: translateY(-50%);
 }
-.carousel-caption h1{
+.SlideIndicator {
+  background-color: gray;
+}
+.carousel-caption h1 {
   font-size: 500%;
   text-transform: uppercase;
   text-shadow: 1px 1px 10px #000;
 }
-.carousel-caption h3{
+.carousel-caption h3 {
   font-size: 200%;
   font-weight: 500;
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
 }
-.jumbotron{
+.jumbotron {
   padding: 1rem;
   border-radius: 0;
 }
-.padding{
+.padding {
   padding-bottom: 2rem;
 }
-.welcome{
-  width:75%;
+.welcome {
+  width: 75%;
   margin: 0 auto;
   padding-top: 2rem;
 }
-.welcome hr{
+.welcome hr {
   border-top: 2px solid #b4b4b4;
   width: 95%;
-  margin-top: .3rem;
+  margin-top: 0.3rem;
   margin-bottom: 1rem;
 }
-.fa-code{
-  color:#e54d26;
+.fa-code {
+  color: #e54d26;
 }
-.fa-university{
-  color:#e54d26;
+.fa-university {
+  color: #e54d26;
 }
-.fa-bold{
+.fa-bold {
   color: #563d7c;
 }
-.fa-css3{
-  color:#2163af;
+.fa-css3 {
+  color: #2163af;
 }
-.fa-js{
-  color:#c9ce37;
+.fa-js {
+  color: #c9ce37;
 }
-.fa-cuttlefish{
-  color:#b937ce;
+.fa-cuttlefish {
+  color: #b937ce;
 }
-.fa-php{
-  color:#364aaf;
+.fa-php {
+  color: #364aaf;
 }
-.fa-windows{
+.fa-windows {
   color: #0078d7;
 }
-.fa-school{
+.fa-school {
   color: #0078d7;
 }
-.fa-android{
-  color:#A4C639;
+.fa-android {
+  color: #a4c639;
 }
-.fa-github{
-  color:#333;
+.fa-github {
+  color: #333;
 }
-.fa-at{
-  color:#A4C639;
+.fa-at {
+  color: #a4c639;
 }
-.fa-github, .fa-code, .fa-bold, .fa-css3, .fa-js, .fa-cuttlefish, .fa-php, .fa-windows, .fa-android, .fa-university, .fa-school, .fa-at{
+.fa-microsoft {
+  color: #00a4ef;
+}
+.fa-cloud {
+  color: #0080ff;
+}
+
+.fa-code,
+.fa-bold,
+.fa-css3,
+.fa-js,
+.fa-cuttlefish,
+.fa-php,
+.fa-windows,
+.fa-android,
+.fa-university,
+.fa-school,
+.fa-at,
+.fa-microsoft,
+.fa-cloud {
   font-size: 4em;
-  margin:1rem;
+  margin: 1rem;
 }
-.social a{
+.social a {
   font-size: 4.5em;
   padding: 3rem;
 }
-.fa-facebook{
-  color:#3b5998;
+.fa-facebook {
+  color: #3b5998;
 }
-.fa-linkedin{
-  color:#0077B5;
+.fa-linkedin {
+  color: #0077b5;
 }
-.fa-facebook:hover, .fa-linkedin:hover{
-  color:#d5d5d5;
+.fa-facebook:hover,
+.fa-linkedin:hover,
+.fa-github:hover {
+  color: #d5d5d5;
 }
-footer{
+footer {
   background-color: #3f3f3f;
-  color:#d5d5d5;
+  color: #d5d5d5;
   padding-top: 2rem;
 }
-hr.light{
+hr.light {
   border-top: 1px solid #d5d5d5;
-  width:75%;
-  margin-top: .8rem;
+  width: 75%;
+  margin-top: 0.8rem;
   margin-bottom: 1rem;
 }
-#Logo{
+#Logo {
   height: 85px;
-  width:100px;
+  width: 100px;
 }
 
-.btn-outline-light{
+.btn-outline-light {
   border: 1px solid #999a9b;
   color: black;
 }
-.btn-outline-light:hover{
+.btn-outline-light:hover {
   background-color: #707070;
 }
 
-
-
-
-
-
-
-
-
-
-
 /*---Media Queries --*/
 @media (max-width: 992px) {
-  .social a{
+  .social a {
     font-size: 4em;
-    padding:2rem;
+    padding: 2rem;
   }
-  .btn-outline-light{
+  .btn-outline-light {
     border: 1px solid #d5d5d5;
     color: #d5d5d5;
   }
-  .btn-outline-light:hover{
+  .btn-outline-light:hover {
     background-color: #d5d5d5;
   }
-
 }
 @media (max-width: 768px) {
- .carousel-caption{
+  .carousel-caption {
     top: 45%;
   }
-  .carousel-caption h1{
+  .carousel-caption h1 {
     font-size: 350%;
   }
-  .carousel-caption h3{
+  .carousel-caption h3 {
     font-size: 140%;
     font-weight: 400;
-    padding-bottom: .2rem;
+    padding-bottom: 0.2rem;
   }
-  .carousel-caption .btn{
+  .carousel-caption .btn {
     font-size: 95%;
-    padding:8px 14px;
+    padding: 8px 14px;
   }
-  .display-4{
+  .display-4 {
     font-size: 200%;
   }
-  .social a{
+  .social a {
     font-size: 2.5em;
-    padding:1.2rem;
+    padding: 1.2rem;
   }
 }
 @media (max-width: 576px) {
-  .carousel-caption{
+  .carousel-caption {
     top: 40%;
   }
-  .carousel-caption h1{
+  .carousel-caption h1 {
     font-size: 250%;
   }
-  .carousel-caption h3{
+  .carousel-caption h3 {
     font-size: 110%;
   }
-  .carousel-caption .btn{
+  .carousel-caption .btn {
     font-size: 90%;
-    padding:4px 8px;
+    padding: 4px 8px;
   }
-  .carousel-indicators{
+  .carousel-indicators {
     display: none;
   }
-  .display-4{
+  .display-4 {
     font-size: 160%;
   }
-  .social a{
+  .social a {
     font-size: 2.5em;
-    padding: .7rem;
+    padding: 0.7rem;
   }
 }
-
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
@@ -226,7 +239,7 @@ figure {
   position: relative;
   width: 100%;
   height: 60%;
-  margin: 0!important;
+  margin: 0 !important;
 }
 .fixed-wrap {
   clip: rect(0, auto, auto, 0);
@@ -237,7 +250,7 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url('img/mac.png');
+  background-image: url("img/mac.png");
   position: fixed;
   display: block;
   top: 0;
@@ -247,17 +260,13 @@ figure {
   background-size: cover;
   background-position: center center;
   -webkit-transform: translateZ(0);
-          transform: translateZ(0);
+  transform: translateZ(0);
   will-change: transform;
 }
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
-    padding: 1rem;
+  padding: 1rem;
 }
-
-
-
-
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
